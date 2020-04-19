@@ -2,7 +2,7 @@ package bowling_game;
 
 public class BowlingGame {
 
-    //we don't know wow many rolls there will be, but no more than 21 (10 per frame for 9 first frames
+    //we don't know wow many rolls there will be, but no more than 21 (up to 2 per frame for 9 first frames
     //and max 3 for frame 10)
     private final int[] rolls = new int[21];
     int currentRoll = 0;
